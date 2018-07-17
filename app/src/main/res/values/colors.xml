@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2c2d28</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="deepskyBlue">#28a8d1</color>
+    <color name="recycler_back">#616161</color>
+    <color name="message_send">#689f38</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>

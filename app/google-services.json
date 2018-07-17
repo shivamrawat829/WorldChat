@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1005706333488",
+    "firebase_url": "https://worldchat-c4541.firebaseio.com",
+    "project_id": "worldchat-c4541",
+    "storage_bucket": "worldchat-c4541.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005706333488:android:648c371caebf9066",
+        "android_client_info": {
+          "package_name": "com.example.shubham.worldchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005706333488-6eut95vfhbkklj2rvb7m2364crrcgjq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.worldchat",
+            "certificate_hash": "31182139d2a6032aefd6892bf1fa807ecb128c1f"
+          }
+        },
+        {
+          "client_id": "1005706333488-b6ql3v2gjqs0mlvj68ej705h508jl6sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTtS-JyMWI4wG9pylR9MYkOltVqkx4_VY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005706333488-b6ql3v2gjqs0mlvj68ej705h508jl6sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

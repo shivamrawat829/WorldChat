@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#3f9dda"
+android:padding="30dp"
+tools:context=".Register">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="0.90">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@+id/currentuser"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_weight="0.30"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.07"
+        android:text="@string/title"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_weight="0.10"
+        android:background="@drawable/back"
+        android:ems="7"
+        android:hint="@string/gender"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <AutoCompleteTextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignEnd="@+id/gender"
+        android:layout_below="@+id/gender"
+        android:layout_marginTop="35dp"
+        android:layout_weight="0.10"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:hint="@string/country"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/country"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:layout_weight="0.10"
+        android:background="@drawable/button_corners"
+        android:text="@string/register_button"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+</RelativeLayout>
